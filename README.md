@@ -20,6 +20,10 @@ sudo cp geckodriver /usr/local/bin/geckodriver # macos
 ```
 
 * 修改代码的校园网用户名，校园网密码，校园网登陆地址，校园网用户名输入控件ID，校园网密码输入控件ID，以及校园网连接控件ID。以上几个ID都可以通过查看网页源码得到。</br>
+* 运行程序
+```
+python3 lut.py
+```
 
 以下为原repo的README
 
