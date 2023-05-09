@@ -1,3 +1,31 @@
+# Lut_connect
+LUT校园网自动重连
+
+* 依赖包安装
+```shell
+pip install selenium
+pip3 install requests
+
+```
+
+* 下载webdriver firefox内核（python可以操控的浏览器，跟我们平时用的浏览器不同，代码中使用Firefox的driver），下载地址：
+```
+https://github.com/mozilla/geckodriver/releases
+```
+
+* 解压缩下载的文件到一个文件夹，如果是linux则复制到/usr/bin/geckodriver, 如果是mac则复制到/usr/local/bin/geckodriver, 如果是windows则手动添加环境变量，这样python运行时可以找到这个driver。linux 复制该driver的代码：
+```
+sudo cp geckodriver /usr/bin/geckodriver # linux
+sudo cp geckodriver /usr/local/bin/geckodriver # macos
+```
+
+* 修改代码的校园网用户名，校园网密码，校园网登陆地址，校园网用户名输入控件ID，校园网密码输入控件ID，以及校园网连接控件ID。以上几个ID都可以通过查看网页源码得到。</br>
+
+以下为原repo的README
+
+---
+
+
 # net_connect
 校园网络自动重连
 
