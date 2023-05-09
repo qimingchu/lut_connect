@@ -69,8 +69,7 @@ def handler(signum, frame):
 
 #主函数
 def main():
-    if __name__ == '__main__':
-        print (getCurrentTime(), u"Hi，校园网自动登陆脚本正在运行")
+    print (getCurrentTime(), u"Hi，校园网自动登陆脚本正在运行")
     while True:
         while True:
             start_time = time.time()
